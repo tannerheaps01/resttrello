@@ -1,0 +1,146 @@
+body {
+
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Rubik', sans-serif;
+}
+body{
+	background-color: #2c3a9e;
+
+}
+
+.header{
+	background-color: #135cd3;
+	background: radial-gradient(#135cd3, #ce42f4);
+	width: 100%;
+	height: 8vh;
+	display: flex;
+	justify-content: center;
+	position: fixed;
+}
+.headerbutton{
+	background-color:#135cd3;
+	border-color: white;
+	border-width: 1px;
+	padding-right:1vw;
+	padding-left:1vw; 
+	color: white;
+	font-family: ;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+	border-radius: 8px;
+	
+}
+.headerbutton:hover{
+	background-color: white;
+	color:#135cd3;
+}
+.lanes{
+	display: flex;
+
+}
+.lane{
+	background-color: #394ccc;
+	
+	height: 100vh;
+	margin-left: 7px;
+	margin-right: 7px;
+	min-width: 400px;
+	max-width: 400px;
+
+}
+.lanebuttons{
+	display: flex;
+	justify-content: center;
+	background-color:#ac3de5;
+	width: 400px;
+	height: 125px;
+	margin-top: 9vh;
+}
+.lanebutton{
+	background-color:#ac3de5;
+	border-color: white;
+	border-width: 1px;
+	padding-right:1vw;
+	padding-left:1vw; 
+	color: white;
+	font-family: ;
+	margin-bottom: 3vh;
+	margin-top: 3vh;
+	border-radius: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.lanebutton:hover{
+	background-color: white;
+	color:#ac3de5;
+}
+.card{
+	margin-top: 7px;
+	width: 400px;
+	height: 400px;
+	background-color: #3959db;
+	
+}
+.cardbuttons{
+	width: 400px;
+	height: 100px;
+	background-color: #3959db;
+	border-style: none;
+	display: flex;
+	justify-content: center;
+}
+.cardbutton{
+	background-color:#3959db;
+	border-color: white;
+	border-width: 1px;
+	padding-right:1vw;
+	padding-left:1vw; 
+	color: white;
+	font-family: ;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+.cardbutton:hover{
+	background-color: white;
+	color:#3959db;
+}
+.move{
+	border-color: white;
+	border-width: 1px;
+	padding-right:1vw;
+	padding-left:1vw; 
+	color: white;
+	font-family: ;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 3vh;
+	margin-bottom: 3vh;
+}
+.move:hover{
+	background-color: white;
+	color:#ac3de5;
+}
+.purple{
+	background-color: #ac3de5;
+}
+.blue{
+	background-color: #3959db; 
+
+}
+
